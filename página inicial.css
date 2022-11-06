@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'Oswald-Light';
+    src: url(fontes/Oswald-Light.ttf);
+}
+@font-face {
+    font-family: 'Oswald-Extralight';
+    src: url(fontes/Oswald-ExtraLight.ttf);
+}
+
+iframe, .imagem {
+    text-align: center;
+    margin: auto;
+    padding-top: 78.05px;
+    width: 80%;
+}
+main > div {
+    width: 100%;
+    text-align: center;
+}
+
+.titulo {
+    font-weight: lighter;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 39.025px;
+}
+
+.navegaçao {
+    text-decoration: none;
+}
+
+.texto {
+    width: 80%;
+    margin: auto;
+    font-size: 20px;
+    text-align: center;
+}
+
+a {
+    color: #A4CE5F;
+}

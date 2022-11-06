@@ -1,0 +1,24 @@
+h1, .mini-texto, h2 {
+    margin: auto;
+    text-align: center;
+    padding-top: 78.05px;
+}
+
+p {
+    margin: auto;
+    text-align: center;
+    width: 80%;
+    font-size: 20px;
+}
+
+iframe {
+    text-align: center;
+    margin: auto;
+    padding-top: 78.05px;
+    width: 80%;
+}
+
+main > div {
+    width: 100%;
+    text-align: center;
+}

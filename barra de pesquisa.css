@@ -1,0 +1,51 @@
+@import url('https://fonts.google.com/specimen/Montserrat');
+
+body {
+    margin: 0;
+    height: 100vh; /* ocupar toda a altura da página */
+    width: 100vw; /* ocupar toda a largura da página */
+    background: linear-gradient(#79e4a6, #1bc296);
+}
+.search-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 40px;
+    background-color: #0a1b2d;
+    padding: 10px;
+    border-radius: 50px;
+    display: flex; /* ficar um do lado do outro */
+    justify-content: space-between; /* tds no máximo para o lado possível */
+    align-items: center;
+}
+.search-txt {
+    border: none;
+    background: none;
+    outline: none; /* borda de quando a gnt clica */
+    padding: 0;
+    color: #f0f5fb;
+    font-size: 20px;
+    font-family: 'Montserrat';
+    line-height: 40px;
+    width: 0;
+    transition: .5s; /* transição de 0,5 segundos */
+}
+    ::-webkit-input-placeholder /* quando passar o mouse ele vai mudar de cor, como um filtro pelo que eu entendi, mas quando passar o mouse */ {
+        color: #1e3754;
+}
+
+.search-btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #0a1b2d;
+    display: flex; /* ficar um do lado do outro */
+    justify-content: center;
+    align-items: center;
+}
+
+.search-box:hover > .search-txt /* quando passar o mouse em cima do .search-box queremos mudar o .search-txt */ {
+    width: 240px;
+    padding: 0 6px; /* vertical e horizontal */
+}

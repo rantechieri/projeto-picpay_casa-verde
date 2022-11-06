@@ -1,0 +1,19 @@
+h1 {
+    margin: auto;
+    text-align: center;
+    padding-top: 78.05px;
+}
+
+.main-img > a img {
+    display: inline-block;
+    width: 183px;
+    height: 183px;
+    margin: auto;
+    text-align: center;
+    padding-top: 78.05px;
+}
+
+main > div {
+    width: 100%;
+    text-align: center;
+}
